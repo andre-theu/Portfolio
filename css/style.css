@@ -120,6 +120,11 @@ header{
     background-color: #fff;
     position: fixed;
     top: 0;
+    right: -20rem;
+    transition: all 1s;
+}
+
+.sidebar.show-menu{
     right: 0;
 }
 
@@ -138,5 +143,36 @@ header{
 .menu-link {
     font-family: var(--font-action);
     font-size: 2rem;
-    color: #555;
+    color: #34495e;
+    transition: color 1s;  
+}
+
+.menu-link:hover {
+        color:#10ac84;
+}
+
+.social-media {
+    position: absolute;
+    bottom: 2rem;
+    width: 100%;
+    display: flex;
+    justify-content:space-evenly;
+}
+
+.social-media i{
+    background-color: #6a3093;
+    color: rgba(255,255,255,1);
+    height: 2.5rem;
+    width: 2.5rem;
+    font-size: 1.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: background-color 1s;
+}
+
+.social-media i:hover{
+    background-color:#576574;
 }
