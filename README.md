@@ -7,4 +7,11 @@ portfólio do Desenvolvedor
 O controle de tarefas será realizado no GitHub
 
 Feito o Head, com efeito!
+
+## Ícones
+
+- :package: nova funcionalidade
+- :up: atualização
+- :beetle: correção de bug
+- :checkered flag: release
  
