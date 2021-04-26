@@ -13,5 +13,5 @@ Feito o Head, com efeito!
 - :package: nova funcionalidade
 - :up: atualização
 - :beetle: correção de bug
-- :checkered flag: release
+- :checkered_flag: release
  
